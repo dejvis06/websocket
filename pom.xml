@@ -12,7 +12,7 @@
 	<artifactId>websocket</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>websocket</name>
-	<description>Demo project for Spring Websocket</description>
+	<description>WebSocket-based chat application built with Spring Boot and Spring WebSocket, demonstrating real-time communication between authenticated users.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -39,6 +39,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.38</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 	</dependencies>
 
